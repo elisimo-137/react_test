@@ -1,7 +1,7 @@
 export function Preberi_vec(props) {
   return (
-    <a className="preberigumb" href={props.href}>
-      <button>{props.children}</button>
+    <a href={props.href}>
+      <button>več o {props.children}</button>
     </a>
   );
 }

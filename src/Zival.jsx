@@ -1,13 +1,13 @@
 import { Preberi_vec } from "./Preberi_vec";
-import "./style/zival.css";
+
 export function Zival(props) {
+  const { name, desc, url, image } = props.data;
   return (
     <div className="zival">
-      <Profil
-      ime=
-      opis
-      ></Profil>
-      <Preberi_vec href={"https://404.si"}>Izvedi več o živali.</Preberi_vec>
+      <img src={image} />
+      <h2>{name}</h2>
+      <p>{desc}</p>
+      <Preberi_vec href={url}>{name}</Preberi_vec>
     </div>
   );
 }

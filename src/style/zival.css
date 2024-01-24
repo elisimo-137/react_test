@@ -1,8 +1,17 @@
 .zival {
-  background-color: red;
+  background: #7ed6df;
   padding: 50px;
 }
 
-.zival .preberigumb {
-  background-color: green;
+.zival h2 {
+  color: #ed4c67;
+  text-align: center;
+  padding: 12%;
+  font-size: 50px;
+}
+
+.zival img {
+  border: 10px orange;
+  width: 500px;
+  border-radius: 50%;
 }
