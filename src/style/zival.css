@@ -1,17 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dokdo&family=Gamja+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .zival {
   background: #7ed6df;
   padding: 50px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .zival h2 {
-  color: #ed4c67;
+  color: orange;
   text-align: center;
   padding: 12%;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .zival img {
-  border: 10px orange;
-  width: 500px;
-  border-radius: 50%;
+  border-radius: 20px orange;
+  width: 550px;
+  border-radius: 10%;
+}
+
+.zival button {
+  background: orange;
+  padding: 5%;
+  box-shadow: 1px 2px 2px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 50px !important;
+  text-align: center;
+}
+
+p {
+  font-size: 20px !important;
+  text-align: center;
 }

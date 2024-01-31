@@ -1,3 +1,4 @@
+import { Counter } from "./Counter";
 import { Zival } from "./Zival";
 import "./style/zival.css";
 
@@ -28,8 +29,9 @@ const animals = [
 export default function App() {
   return (
     <>
-      <h1>Živalsko kraljestvoj</h1>
-      <p>tukaj bodo predastvljene različne živale</p>
+      <h4>Živalsko kraljestvo</h4>
+      <p>Tukaj so predstavljene različne živalice</p>
+      <Counter></Counter>
       <div className="grid grid-cols-3 gap-5 ">
         {animals.map((animal) => {
           return <Zival data={animal}></Zival>;
